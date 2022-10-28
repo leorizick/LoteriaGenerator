@@ -1,0 +1,17 @@
+<div class="card w-100 my-5">
+    <div class="card-body">
+      <h2 class="text-center my-0"> Selecione o tipo da aposta!</h2>
+    </div>
+  </div>
+
+<section class="d-flex align-items-center justify-content-center flex-wrap">
+        <div class="card mx-2 my-2" style="width: 18rem;" *ngFor="let game of games">
+            <img class="card-img-top" [src]="game.img"  alt="Tipo de aposta">
+            <div class="card-body">
+              <h5 class="card-title">{{game.title}}</h5>
+              <p class="card-text"> {{game.body}}
+              </p>
+             <a [routerLink]="game.routerLink" class="btn btn-primary">Selecionar</a>
+            </div>
+          </div>
+</section>

@@ -3,14 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ListGameMethodComponent } from './components/list-game-method/list-game-method.component';
+import { HeaderComponent } from './components/header/header.component';
+import { MegaSenaComponent } from './pages/mega-sena/mega-sena.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListGameMethodComponent,
+    HeaderComponent,
+    MegaSenaComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
