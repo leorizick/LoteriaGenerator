@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
+
 
 @Component({
   selector: 'app-lotofacil',
@@ -10,7 +12,7 @@ export class LotofacilComponent implements OnInit {
   count = 0;
   subtitle = false;
 
-  constructor() { }
+  constructor(private snackBar : MatSnackBar) { }
 
 
   ngOnInit(): void {
@@ -30,6 +32,10 @@ lotofacilGenerator() {
   this.counter();
   this.subtitle = true;
 } 
+
+openSnackBar(message: string, action: string){
+  this.snackBar.open(message, action, {duration: 2000});
+  }
 
 counter(){
   let interval = setInterval(() => {

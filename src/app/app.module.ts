@@ -10,6 +10,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { LotofacilComponent } from './pages/lotofacil/lotofacil.component';
 import { QuinaComponent } from './pages/quina/quina.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MegaSenaComponent,
     LotofacilComponent,
     QuinaComponent,
+    
+    
 
   
   ],
@@ -27,6 +30,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     MatButtonModule,
     BrowserAnimationsModule,
+    MatSnackBarModule
   
   ],
   providers: [],
