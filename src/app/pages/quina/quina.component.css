@@ -92,11 +92,15 @@ font-size: 30px;
     }
     .numerosDiv{
         text-align: center;
-        margin-right: 10px;
+        margin-right: 35px;
+    }
+    .numeros{
+        margin-top: 10px;
+        margin-left: 10px;
     }
 
     .btn{
-       margin-left: -5px;
-       
+       margin-left: -15px;
+       margin-top: -30px;
     }
 }
