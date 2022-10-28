@@ -60,4 +60,14 @@ section {
     justify-content: center;
     width: 120px;
   }
-  
+
+
+
+  @media (max-width: 800px){
+    .titulo{
+        font-size: 35px;
+        text-align: center;
+        
+    }
+
+  }
