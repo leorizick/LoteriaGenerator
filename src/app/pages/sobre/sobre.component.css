@@ -50,7 +50,10 @@
         
     }
     .example-card {
-      display: list-item;
+    
+      display: flow-root;
+      bottom: 20px;
+      
       }
 
       .mat-card-image{
