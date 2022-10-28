@@ -88,5 +88,13 @@
         text-align: center;
         margin-right: 10px;
     }
+    .numeros{
+        margin-top: 0px;
+        margin-right: 23px;
+    }
+    .btn{
+        margin-left: -20px;
+        margin-top: -30px;
+     }
     
 }
