@@ -24,7 +24,7 @@ export class ListGameMethodComponent implements OnInit {
 title: "Quina",
   img: "https://www.oliberal.com/image/contentid/policy:1.484015:1642433098/quina.jpg?f=2x1&$p$f=1a07255&w=1500&$w=f075b93",
   body: "Na Quina voce ganha acertando 2, 3, 4 ou 5 numeros, para o premio maximo é necessario acertar todos os 5 numeros sorteados. Voce tem uma chance em 24 milhões de se tornar milionário!",
-  routerLink: "/megaSena"
+  routerLink: "/quina"
 }
   ];
 

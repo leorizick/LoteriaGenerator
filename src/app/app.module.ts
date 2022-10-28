@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MegaSenaComponent } from './pages/mega-sena/mega-sena.component';
 import {MatButtonModule} from '@angular/material/button';
 import { LotofacilComponent } from './pages/lotofacil/lotofacil.component';
+import { QuinaComponent } from './pages/quina/quina.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { LotofacilComponent } from './pages/lotofacil/lotofacil.component';
     HeaderComponent,
     MegaSenaComponent,
     LotofacilComponent,
+    QuinaComponent,
 
   
   ],
