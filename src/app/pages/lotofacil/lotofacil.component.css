@@ -76,3 +76,30 @@ justify-content: center;
 margin-top: 20px;
 font-size: 30px;
 }
+
+@media (max-width: 800px){
+    .titulo{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .button{
+        width: 50%;
+        margin-top: 10px;
+    }
+    .subtitle{
+        font-size: 30px;
+        text-align: center;
+    }
+    .numerosDiv{
+        text-align: center;
+        margin-right: 10px;
+    }
+    .numeros{
+        margin-top: -15px;
+    }
+    .btn{
+        margin-left: -10px;
+     }
+   
+
+}
