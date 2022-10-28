@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-mega-sena',
-  templateUrl: './mega-sena.component.html',
-  styleUrls: ['./mega-sena.component.css']
+  selector: 'app-lotofacil',
+  templateUrl: './lotofacil.component.html',
+  styleUrls: ['./lotofacil.component.css']
 })
-export class MegaSenaComponent implements OnInit {
+export class LotofacilComponent implements OnInit {
   gerador : Array<number> = [];
   count = 0;
   subtitle = false;
@@ -17,12 +17,12 @@ export class MegaSenaComponent implements OnInit {
     
 }
 
-megaSenaGenerator() {
+lotofacilGenerator() {
   this.gerador = [];
-  for (var i = 0; i < 6; i++) {
-    var number = Math.floor(Math.random() * 60 + 1);
+  for (var i = 0; i < 15; i++) {
+    var number = Math.floor(Math.random() * 25 + 1);
     while(this.gerador.includes(number)){
-      number = Math.floor(Math.random() * 60 + 1);
+      number = Math.floor(Math.random() * 25 + 1);
     }
     this.gerador.push(number);
   }
@@ -39,6 +39,4 @@ counter(){
     }
   }, 1000)
 }
-
 }
-

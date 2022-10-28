@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ListGameMethodComponent } from './components/list-game-method/list-game-method.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MegaSenaComponent } from './pages/mega-sena/mega-sena.component';
+import {MatButtonModule} from '@angular/material/button';
+import { LotofacilComponent } from './pages/lotofacil/lotofacil.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,15 @@ import { MegaSenaComponent } from './pages/mega-sena/mega-sena.component';
     ListGameMethodComponent,
     HeaderComponent,
     MegaSenaComponent,
+    LotofacilComponent,
+
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatButtonModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
