@@ -7,3 +7,14 @@
 .border{
     border-radius: 50%;
 }
+
+.bottom{
+    margin-bottom: 0px;
+}
+
+@media (max-width: 800px){
+    .teste{
+        text-align: start;
+    }
+}
+

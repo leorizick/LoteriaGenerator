@@ -11,6 +11,9 @@ import { LotofacilComponent } from './pages/lotofacil/lotofacil.component';
 import { QuinaComponent } from './pages/quina/quina.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { SobreComponent } from './pages/sobre/sobre.component';
+import {MatCardModule} from '@angular/material/card';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -20,17 +23,17 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MegaSenaComponent,
     LotofacilComponent,
     QuinaComponent,
+    SobreComponent,
+    DashboardComponent,
     
-    
-
-  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
     BrowserAnimationsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatCardModule
   
   ],
   providers: [],

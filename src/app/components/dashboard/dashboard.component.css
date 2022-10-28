@@ -1,0 +1,28 @@
+.container-fluid{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px 3.5%;
+    background-color: #0166b4;
+    text-align: center;
+
+}
+
+.texto{
+    font-size: 12px;
+}
+
+@media (max-width: 800px){
+    .container-fluid{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        padding: 0px ;
+        background-color: #0166b4;
+        text-align: center;
+    
+    }
+    .texto{
+        font-size: 9px;
+    }
+}
