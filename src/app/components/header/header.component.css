@@ -8,12 +8,3 @@
     border-radius: 50%;
 }
 
-@media (max-width: 800px){
-    .navbar{
-        font-size: 50px;
-        text-align: center;
-        margin-top: 0px;
-        
-    }
-
-}

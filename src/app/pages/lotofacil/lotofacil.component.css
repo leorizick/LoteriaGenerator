@@ -29,20 +29,20 @@ font-size: 40px;
 color: black;
 }
 
-.numerosDiv{
-text-align: center;
-padding-left: -50px;
-}
 
 .teste{
-align-items: center;
-justify-content: center;
-display: inline-block;
-margin-top: 50px;
-margin: 10px 0;
-text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 50px;
+    margin: 10px 0;
+    text-align: center;
+    }
 
-}
+.numerosDiv{
+    text-align: center;
+    padding-left: -50px;
+    }
 
 .numeros {
 align-items: center;
@@ -76,6 +76,7 @@ justify-content: center;
 margin-top: 20px;
 font-size: 30px;
 }
+
 
 @media (max-width: 800px){
     .titulo{
